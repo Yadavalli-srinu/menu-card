@@ -1,0 +1,70 @@
+.background{
+    background-image: url(https://www.treebo.com/blog/wp-content/uploads/2018/04/Romantic-Restaurants-in-Delhi.jpg);
+    height: 70vh; 
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.heading{
+color: red;
+font-size: 150px;
+font-family: sans-serif;
+}
+.btn{
+border-radius: 20px;
+border: none;
+color: white;
+font-size: 50px;
+font-family: sans-serif;
+background-color: greenyellow;
+height: 100px;
+width: 200px;
+}
+.btn:hover{
+color: black;
+box-shadow: 2px 2px 2px 2px greenyellow;
+}
+.heading::first-line{
+    border-radius: 20px;
+    background-image: linear-gradient(lightblue,yellow);
+}
+.menu>h1{
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+.menu>h1::first-letter{
+    background-color: greenyellow;
+}
+.first{
+    background-image:linear-gradient(red,white,orange);
+    height: 450px;
+    width: 500px;
+    border-radius: 20px;
+}
+.image{
+    height: 70%;
+    width: 100%;
+    border-radius: 20px;
+}
+.name{
+    color: brown;
+}
+.desc{
+    font-size: 35px;
+}
+.v::first-letter{
+    background-color: greenyellow;
+}
+.v{
+    text-decoration: underline;
+}
+.image1{
+    height: 20vh;
+    width: 30vw;
+}
+.v1{
+    font-size:45px;
+    color: brown;
+}
+
